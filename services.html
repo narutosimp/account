@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="footer.css">
+  <!-- tailwind css     -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <style>
+  /* Style the navbar */
+  .navbar {
+      background-color: #333;
+      overflow: hidden;
+      position: relative;
+  }
+
+  /* Navbar list items */
+  .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  /* Navbar list items (list-style) */
+  .navbar li {
+      padding: 20px;
+      text-align: center;
+  }
+
+  /* Style links */
+  .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+  }
+
+  /* Change link color on hover */
+  .navbar a:hover {
+      color: #66bb6a;
+  }
+
+  /* Add a stylish hover effect */
+  .navbar li:hover::after {
+      content: '';
+      display: block;
+      background-color: #66bb6a;
+      height: 4px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+      .navbar ul {
+          flex-direction: column;
+          text-align: center;
+      }
+
+      .navbar li {
+          padding: 10px;
+      }
+  }
+
+  </style>
+  <!-- Navbar End -->
+  <div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+  <!-- Navbar End -->
+  <!-- Services Section -->
+<section class="service container mx-auto py-8 px-6 h-auto">
+        <div>
+        <h2 class="text-black font-bold text-4xl uppercase relative h-auto w-full pb-1 text-center ">
+            Services <span class="text-red-500">.</span>
+          </h2>
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+            <div class=" bg-blue-50 p-10 transition-all my-5 rounded flex flex-col justify-start items-start hover:shadow-xl">
+              <div class="icon text-7xl pb-6 text-red-500">
+                <FaFontAwesomeFlag />
+              </div>
+              <div class="desc ">
+                <h3 class="font-bold text-2xl leading-8">Comapny Audit</h3>
+                <p class="font-normal text-lg my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam a quidem magni sint laudantium eius!</p>
+              </div>
+            </div>
+            <div class=" bg-green-50 p-10 transition-all my-5 rounded flex flex-col justify-start items-start hover:shadow-xl">
+              <div class="icon text-7xl pb-6 text-red-500">
+                <FaFontAwesomeFlag />
+              </div>
+              <div class="desc ">
+                <h3 class="font-bold text-2xl leading-8">  Direct, Excise & Service Tax</h3>
+                <p class="font-normal text-lg my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam a quidem magni sint laudantium eius!</p>
+              </div>
+            </div>
+            <div class=" bg-green-50 p-10 transition-all my-5 rounded flex flex-col justify-start items-start hover:shadow-xl">
+              <div class="icon text-7xl pb-6 text-red-500">
+                <FaFontAwesomeFlag />
+              </div>
+              <div class="desc ">
+                <h3 class="font-bold text-2xl leading-8">GST Compliance</h3>
+                <p class="font-normal text-lg my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam a quidem magni sint laudantium eius!</p>
+              </div>
+            </div>
+            <div class=" bg-green-50 p-10 transition-all my-5 rounded flex flex-col justify-start items-start hover:shadow-xl">
+              <div class="icon text-7xl pb-6 text-red-500">
+                <FaFontAwesomeFlag />
+              </div>
+              <div class="desc ">
+                <h3 class="font-bold text-2xl leading-8"> Accountancy</h3>
+                <p class="font-normal text-lg my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam a quidem magni sint laudantium eius!</p>
+              </div>
+            </div>
+            <div class=" bg-green-50 p-10 transition-all my-5 rounded flex flex-col justify-start items-start hover:shadow-xl">
+              <div class="icon text-7xl pb-6 text-red-500">
+                <FaFontAwesomeFlag />
+              </div>
+              <div class="desc ">
+                <h3 class="font-bold text-2xl leading-8">Secratarial Service</h3>
+                <p class="font-normal text-lg my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam a quidem magni sint laudantium eius!</p>
+              </div>
+            </div>
+            <div class=" bg-green-50 p-10 transition-all my-5 rounded flex flex-col justify-start items-start hover:shadow-xl">
+              <div class="icon text-7xl pb-6 text-red-500">
+                <FaFontAwesomeFlag />
+              </div>
+              <div class="desc ">
+                <h3 class="font-bold text-2xl leading-8">Auditing</h3>
+                <p class="font-normal text-lg my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam a quidem magni sint laudantium eius!</p>
+              
+              </div>
+
+            </div>
+          
+          </div>
+        </div>
+      </section>
+      <!-- footer start -->
+      <div class="footer">
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+    </div>
+      <!-- footer End -->
+    </body>
+    </html>

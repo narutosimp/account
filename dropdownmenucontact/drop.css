@@ -1,0 +1,90 @@
+/* Dropdown menu container */
+.dropdown {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+/* Dropdown menu links */
+.dropdown li {
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* Dropdown menu links on hover */
+.dropdown li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dropdown menu links when active */
+.dropdown li.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Dropdown menu toggle button */
+.dropdown-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Dropdown menu toggle button on hover */
+.dropdown-toggle:hover {
+  background-color: #f1f1f1;
+}
+/* Dropdown menu container */
+.dropdown {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+/* Dropdown menu links */
+.dropdown li {
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* Dropdown menu links on hover */
+.dropdown li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dropdown menu links when active */
+.dropdown li.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Dropdown menu toggle button */
+.dropdown-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Dropdown menu toggle button on hover */
+.dropdown-toggle:hover {
+  background-color: #f1f1f1;
+}
